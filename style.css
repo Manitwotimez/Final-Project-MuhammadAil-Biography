@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: black;
+  color: white;
+  margin:0;
+  padding:0;
+  font-size:1.7em;
+}
+
+header {
+  background-image: url("https://assets.codepen.io/5651481/muhammad-ali-wide.jpg.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size:0.60em;
+   display:
+  
+}
+
+.title {
+  position: absolute;
+  top: 35%;
+  left: 75px;
+}
+
+.title-containter
+
+ul li {
+  list-style-type:none;
+  display: inline-block;
+  padding: 15px 50px;
+}
+
+li a {
+  font-family: Lato, serif;
+  text-decoration:none;
+  color:black;
+  font-size: 1.2em;
+  padding-bottom: 3px;
+}
+
+li a:hover {
+  border-bottom: 3.5px solid black;
+}
+
+
+.title {
+  text-align:center;
+}
+
+h1, h2 {
+  text-align: center;
+  
+}
+
+.title h1, .title h2 {
+  margin: 20;
+}
+
+/*
+.title h2 {
+  position:above;
+  bottom: 50%;
+  left: 100px;
+  font-size:1.5em;
+  text-align:center;
+}
+*/
+
+
+header button {
+   position: absolute;
+  right: 30%;
+  width: 100px;
+  margin: 100px;
+  padding: 10px;
+}
+
+
+li b {
+  font-family:Lato,sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 15px 5px;
+}
+
+button {
+  background:#8E5133;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 200 px;
+  border-radius: 30px;
+  font-family:  sans-serif;
+}
+
+
+  
+nav {
+  position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+}
+
+nav .logo {
+  padding: 9.75px 40px;
+  height: 50px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  float: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  color: white;
+  padding: 9.75px 18px;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  color: red;
+  border-radius: 6px;
+}
+
+section {
+  height: 100vh;
+}
+
+.hero {
+  height: 100vh;
+  width: cover;
+  background:;
+  background-image:url("https://assets.codepen.io/5651481/Unknown-8.jpeg")
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  margin: 0;
+  padding: 0 15px;
+}
+
+header .logo {
+  padding: 0px 10px;
+  height: 200px;
+  position: absolute;
+  right: 13%;
+  top: 35%;
+}
+
+.header-button {
+  padding: 7px 12px;
+  background: #8e5133;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20%;
+  top: 84%;
+  font-family: "Lato", sans-serif;
+}
+
+
+.card-container {
+  display:flex;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+  section2 {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+
+ h1 {
+  font-size: 16px;
+    bottom: 50%;
+  left: 100px;
+  font-size:1.7em;
+  text-align:center;
+}
+
+
+h2 {
+  bottom: 50%;
+  left: 100px;
+  font-size:1.7em;
+  text-align:center;
+}
+
+h3 {
+  bottom: 50%;
+  left: 100px;
+  font-size:1.7em;
+  text-align:center;
+}
+
+footer {
+  background:#8E5133;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer p {
+  color: white;
+}
+
+
+
+.img_ail{
+ height:790px;  
+ width:auto;  
+}
+
+.legacy card {
+  display: flex;
+  width: 250px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  
+}
+footer {
+  background:white;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer p {
+  color: black;
+}
